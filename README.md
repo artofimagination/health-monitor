@@ -4,8 +4,10 @@ this little application is usefule for logging and monitoring some health relate
 The development is completed for now.
 
 # Usage
-The app is extremely simple. It stores all the data in csv files. By default, some of my own data is put in as an example. 
- - Please go in src/data and open data.csv and users.csv and delete all entries except the header line. Now you are ready to put in your own data.
+The app is extremely simple. It stores all the data in csv files. By default, some random example data is put in. 
+ - Please go in src/data and open data.csv and users.csv and delete all entries except the header line.
+ - Add your user info in the user.csv
+ - Now you are ready to put in your own data.
  - Once you filled all the fields, press ```Add```
  - To delete the last enrty press ```Delete last```. This will delete the last entry for the current user
  
