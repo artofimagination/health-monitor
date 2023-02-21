@@ -1,0 +1,7 @@
+limit,systolic,diastolic
+low,90,60
+normal,120,80
+elevated,129,80
+hypertension stage 1,139,89
+hypertension stage 2,179,119
+critical,180,120
