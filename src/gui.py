@@ -28,13 +28,6 @@ class MainWindow(QMainWindow):
         self.resize(screenRect.width(), screenRect.height())
         self.show()
 
-    # @QtCore.pyqtSlot(bool)
-    def _updateControlEnabled(self, enabled):
-        self.enablePump.setEnabled(enabled)
-        self.enableValve.setEnabled(enabled)
-        self.enableSolar.setEnabled(enabled)
-        self.enableGenerator.setEnabled(enabled)
-
     def _createMainLayout(self):
         layout = QGridLayout()
         self.view = QWebView()
